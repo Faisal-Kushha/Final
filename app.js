@@ -16,26 +16,6 @@ function Tour(name, email, phone, packages, number, date, vaccine){
 
 }
 
-// Tour.prototype.adventure = function(){
-//     let package1 = ("3 Days & 2 Nights");
-//     let package2 = ("5 Days & 4 Nights");
-//     let package3 = ("7 Days & 6 Nights");
-//         if (this.packages === package1) {
-//             return Math.floor(this.number * 150);
-        
-//         } 
-//         else if (this.packages === package2) 
-//         {
-//             return Math.floor(this.number * 250);
-        
-//         } 
-//         else (this.packages === package3)
-//          {
-//             return Math.floor(this.number * 350);
-//         }
-
-// }
-
 
 
 const UserInput = document.getElementById('UserInput');
@@ -78,3 +58,38 @@ function loadData(){
     loadData();
     // UserInput.removeEventListener('submit', handleSubmit);
     // UserInput.reset();
+
+
+    // Tour.prototype.adventure = function(){
+//     let package1 = ("3 Days & 2 Nights");
+//     let package2 = ("5 Days & 4 Nights");
+//     let package3 = ("7 Days & 6 Nights");
+//         if (this.packages === package1) {
+//             return Math.floor(this.number * 150);
+        
+//         } 
+//         else if (this.packages === package2) 
+//         {
+//             return Math.floor(this.number * 250);
+        
+//         } 
+//         else (this.packages === package3)
+//          {
+//             return Math.floor(this.number * 350);
+//         }
+
+// }
+
+
+// function vac(){
+//     let vaccine1 = this. vaccine ;
+//     switch (vaccine1){
+//         case 'Yes':
+//             render();
+//             break;
+//             case 'No':
+//                 textcontet
+//                 'Based on the Jordanian government regulation regarding to Covid-19 you have to be either vaccinated or provide a PCR test in last 72 hours you can check: https://international.visitjordan.com/page/31/Covid-19Update'
+//                 break;
+//             }
+// // }
